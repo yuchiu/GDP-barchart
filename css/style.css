@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #11100f;
+    background: #c5c2b5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #c5c2b5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #c5c2b5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header-title {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#header-title:hover {
+    text-shadow: 0 0 10px #ecf9f6, 0 0 20px #d9f3ee, 0 0 30px #c6ede6, 0 0 40px #b3e8dd, 0 0 70px #a1e2d5, 0 0 80px #8edccd, 0 0 100px #7bd7c4;
+    -webkit-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: .5em;
+    padding: .3em;
+    border-radius: 1em;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    display: block;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    color: #eee;
+    width: 8em;
+    height: 4em;
+    padding: .1em;
+    border-radius: 1em;
+    background: #485563;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari */
+    box-shadow: 0 0 4px #ffffff, 0 0 6px #d9f3ee, 0 0 8px #b3e8dd, 0 0 10px #8edccd, 0 0 12px #68d1bc, 0 0 20px #43C6AC;
+    -webkit-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 500ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#tooltip p {
+    margin: .5em;
+}
